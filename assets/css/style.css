@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+
+#UP{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    min-height: 7vh;
+    width: 7vh;
+    font-size: 32px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50%;
+    background-color: darkred;
+    color: ghostwhite;
+    z-index: 9999;
+    display: none;
+}
+
+
+
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 999999999;
+    min-height: 7vh;
+    top: -1vh;
+}
+
+
+
+#smallheader .nav-item .nav-link{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#smallheader .nav-item .nav-link:hover{
+    color: darkred;
+}
+
+.finishlink{
+    margin: 5px 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.ser{
+   
+    width: 17vh;
+    text-align: center;
+}
+
+
+/* Start Section Tow */
+.tow{
+    background-color: #80808029;
+}
+.career h2{
+    margin: 15px;
+}
+
+.card{
+    margin: 20px;
+    border: none;
+}
+
+.card .card-body h3{
+    font-weight: 700;
+}
+
+.card .card-body a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+.card .card-body a:hover{
+    color: red;
+}
+
+/* Start Section Tow */
+/* ************************************************* */
+/* Start Section Three */
+
+.Navigate{
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.DXC{
+    text-decoration: none;
+    border: 1px solid darkblue;
+    width: 25vh;
+    min-height: 6vh;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.DXC:hover{
+    background-color: darkred;
+}
+
+.cards img{
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    /* background-color: #f1f1f1; */
+    margin-bottom: 2rem;
+}
+
+.nnn{
+    margin-left: 31px;
+    padding: 0px;
+}
+/* End Section Three */
+/* *************************************************************************************** */
+
+
+/* Start Section Four */
+
+.four{
+    background-color: #80808030;
+    width: 100%;
+    min-height: 45vh;
+}
+
+.stay h2{
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.stay p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+.sform .a-1 , .a-2{
+    border: none;
+    background-color: transparent;
+    border-bottom-style: outset;
+    padding: 35px;
+    width: 40%;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+
+.sform .next{
+    padding: 15px;
+    margin: 20px 29px;
+}
+
+
+
+/* End Section Four */
+/* ********************************************************************************* */
+
+
+/* Start Section Five  */
+.five .container .row .STORIES button{
+    min-height: 11vh;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+
+/* End Section Five  */
+
+/* **************************************************************************************** */
+
+
+/* Start Section Six */
+
+.Perspectives .card-group{
+     width: 90%;
+     margin: auto;
+}
+
+.Perspectives .container .row .more button{
+    min-height: 11vh;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius:25px;
+}
+
+/* Start Section Six */
+/* ******************************************************************************* */
+
+/* start section seven */
+
+.markat .container{
+    width: 85%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.markat .container .row .item {
+    width: 18%;
+    margin: 25px 5px;
+    transition: 0.3s;
+}
+
+.item img{
+    width: 100%;
+}
+
+.item img:hover{
+    transform: scale(1.1);
+}
+
+.more{
+    min-height: 11vh;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius:25px;
+}
+/* end section seven */
+/* ************************************************************ */
+
+/* start section contact */
+
+.contact .US{
+    background-color: #343a40;
+    height: 24vh;
+    margin: auto;
+}
+
+.US h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 36px;
+    color: #fff;
+
+}
+
+.US .atsal{
+    min-height: 11vh;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius:25px;
+    color: #fff;
+}
+
+
+
+/* end section contact */
+footer{
+    background-color: darkgrey;;
+}
+
+footer .list-unstyled li a{
+    margin: 25px;
+}
+.footer p a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 25px;
+}
+
+.footer p a:hover{
+    color: darkred;
+}
